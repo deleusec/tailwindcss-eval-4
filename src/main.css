@@ -3,5 +3,19 @@
 @tailwind utilities;
 
 @layer base {
-    
+    body {
+        @apply font-heebo font-light bg-background-light dark:bg-background-dark;
+    }
+
+    p {
+        @apply text-lg text-black dark:text-white font-normal;
+    }
+
+    strong {
+        @apply font-semibold;
+    }
+
+    h1 {
+        @apply text-7xl md:text-[96px] text-black dark:text-white font-light;
+    }
 }

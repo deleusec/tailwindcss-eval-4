@@ -3,9 +3,15 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        "heebo" : ["Heebo", "sans-serif"],
+      },
       minHeight: {
-        "header-mobile" : "80px",
-        "body-mobile" : "calc(100vh - 80px)",
+        "header-mobile" : "100px",
+        "body-mobile" : "calc(100vh - 100px)",
+      },
+      maxWidth: {
+        "body" : "1200px",
       },
       colors : {
         "primary" : {
@@ -15,8 +21,10 @@ module.exports = {
           "500" : "#eaeafa",
         },
         "background-light" : "#f7f7f7",
+        "background-dark" : "#1a1a1a",
       }
     },
   },
   plugins: [],
+  darkMode : "class",
 }
