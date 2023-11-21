@@ -24,7 +24,7 @@ module.exports = {
         "background-dark" : "#1a1a1a",
       },
       backgroundImage: {
-        "woman" : "url('../src/assets/woman_drinking.png')",
+        "woman" : "url('./src/assets/woman_drinking.png')",
       },
     },
   },
