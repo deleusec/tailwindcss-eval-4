@@ -22,7 +22,10 @@ module.exports = {
         },
         "background-light" : "#f7f7f7",
         "background-dark" : "#1a1a1a",
-      }
+      },
+      backgroundImage: {
+        "woman" : "url('../src/assets/woman_drinking.png')",
+      },
     },
   },
   plugins: [],
